@@ -32,7 +32,7 @@ public class Principal {
         FileInputStream fi = null;
 
         try{
-            fi =new FileInputStream("Arquivo_recuperado.txt");
+            fi =new FileInputStream("Arquivo.txt");
             ObjectInputStream ois = new ObjectInputStream(fi);
             recupera = (ArrayList) ois.readObject();
         } catch (FileNotFoundException f){

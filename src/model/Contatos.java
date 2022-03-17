@@ -1,6 +1,8 @@
 package model;
 
-public class Contatos {
+import java.io.Serializable;
+
+public class Contatos implements Serializable {
     private String nome;
     private String email;
     private String telefone;
