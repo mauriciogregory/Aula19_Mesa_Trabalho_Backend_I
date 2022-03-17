@@ -9,7 +9,7 @@ public class Principal {
         List<Contatos> contatos = new ArrayList<>();
 
         Contatos contatos1 = new Contatos("Marcos", "m@fgm.com","5190909");
-        Contatos contatos2 = new Contatos("Loan", "l@jmk.com", "289819891");
+        Contatos contatos2 = new Contatos("José", "l@jmk.com", "289819891");
 
         // adicionando na lista
         contatos.add(contatos1);
